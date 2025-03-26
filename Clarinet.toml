@@ -5,8 +5,18 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.aging-facility-sharing]
+path = 'contracts/aging-facility-sharing.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.producer-registration]
 path = 'contracts/producer-registration.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.quality-verification]
+path = 'contracts/quality-verification.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]
